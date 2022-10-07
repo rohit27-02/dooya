@@ -31,9 +31,9 @@ export default function Home() {
 
       <div className="flex ">
         <div className="w-[46vw] h-[41.5vw] overflow-hidden ml-[8vw] mt-[8vw] drop-shadow-xl">
-          <img className="h-[41.5vw] hover:scale-125 transition-all duration-1000 object-cover" src="/deconovo-uKBSq6O1BMw-unsplash.jpg"></img>
+          <img className="h-[41.5vw] hover:scale-100 scale-125 transition-all duration-1000 object-cover" src="/deconovo-uKBSq6O1BMw-unsplash.jpg"></img>
         </div>
-        <div className="drop-shadow-lg mt-[16vw] -mx-[3vw] mr-[8vw] h-[38vw] w-[47.5vw] bg-[#D5F3C1] flex flex-col justify-evenly px-[4vw]">
+        <div className="drop-shadow-lg mt-[16vw] -mx-[3vw] mr-[8vw] h-[38vw] w-[47.5vw] bg-gradient-to-b from-[#D5F3C1] to-[#abd890]  flex flex-col justify-evenly px-[4vw]">
           <h1 className="text-[3.6vw]" style={{ fontFamily: `'Cormorant Garamond', serif` }}>Welcome</h1>
           <p className="text-[1.25]" style={{ fontFamily: `"montserrat",sans-serif`, }}>Dooya strives for excellence by providing customized solutions. Our knowledgeable experts selects the most genuine and experienced
             vendors after in-depth research.</p>
